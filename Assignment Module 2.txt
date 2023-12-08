@@ -1,0 +1,171 @@
+1) What is Exploratory Testing?
+-> Exploratory Testing is a dynamic and flexible testing approach where testers learn about the application, design test cases on-the-fly, and make real-time decisions during testing
+   without predefined scripts. It emphasizes adaptability, creativity, and uncovering defects through active exploration of the software.
+2) What is traceability matrix?
+->  Test conditions should be able to to be linked back o their sources in the test basis , this is known as traceability
+
+3) What is Boundary value testing?
+-> Boundary Value Testing is a technique where test cases focus on evaluating how well an application handles input values at the boundaries or extreme ends of valid and invalid ranges.
+   It helps uncover potential errors or defects related to boundary conditions.
+4) What is Equivalence partitioning testing?
+-> It is a tecgniques of black box testing in which they select a group and select one representive to test all them out
+
+
+5) What is Integration testing?
+-> Integration Testing is a software testing phase where individual components or modules are combined and tested as a group to ensure that they work together seamlessly. It verifies the
+   interactions between integrated components, detecting defects in their interfaces and collaborations.  
+
+6) What determines the level of risk?
+->  The level of risk is determined by factors such as the complexity of the project, the experience of the team, the stability of requirements, the technology used, and the criticality of 
+    the application. Additionally, external factors like time constraints and budget limitations can influence risk.
+
+7) What is Alpha testing?
+-> Alpha Testing is a type of acceptance testing performed by the internal development team before releasing the software to a selected group of external users. It aims to identify issues
+   in the software's functionality, usability, and overall performance before a broader release.
+
+8) What is beta testing?
+->  Beta Testing is a type of acceptance testing where a version of the software is released to a limited group of external users who provide feedback on its functionality, usability, and
+    performance. It helps identify potential issues in a real-world environment before the software's official release.
+
+9) What is component testing?
+-> Component Testing, also known as unit testing, is a software testing level where individual components or modules of a system are tested in isolation. It focuses on verifying the 
+   correctness of each component's functionality and behavior.
+
+10) What isfunctional system testing?
+->   Functional testing based on an analysis of the specification of functionality of a component or system specification
+      e.g. requirement specification , Usecase
+
+11) What is Non-Functional Testing?
+->   Non-Functional testing is the attributes of a component or system unit that do not related to functionality
+      eg. reliability , useability , portability ,  maintainability and more
+
+12) What is GUI Testing?
+->  GUI testing, or Graphical User Interface testing, focuses on verifying the correct functionality, layout, navigation, and usability of the graphical elements in a software application.
+    It ensures a positive user experience by checking how the user interface responds to interactions and displays information.
+
+13) What is Adhoc testing?
+-> Ad hoc testing is an informal and unstructured software testing approach where testers spontaneously design and execute test cases based on their intuition, experience, and domain 
+   knowledge without predefined test plans or documentation. The goal is to identify defects quickly and explore the application in a free-form manner.
+
+14) What is load testing?
+-> Load testing is a type of performance testing that assesses how a system or application performs under anticipated or simulated user loads. It involves subjecting the system to 
+   increasing levels of demand to evaluate its capacity, scalability, and responsiveness under different levels of concurrent users or transactions.
+
+15) What is stress Testing?
+-> Stress testing is a type of performance testing that evaluates the stability and robustness of a system by subjecting it to extreme conditions, such as high user loads, excessive 
+   data, or resource limitations. The goal is to identify the system's breaking point and understand its behavior under stressful conditions.
+
+16) What is white box testing and list the types of white box testing?
+->  testing based on an analysis of the internal structure of the component or the system
+    it is also known as glass box and structure based testing
+-> Types of White-Box Testing :- Unit Testing,Integration Testing,System Testing,Component Testing 
+    
+
+17) What is black box testing? What are the different black box testing techniques?
+->   Testing either functional or non-functional , without reference to the internal structure of the component or system
+      It is also known as input/output driven testing techniques
+      Techniques ->
+      1) Equivalence Partitioning
+      2) Boundry Value Analysis
+      3) Decision Tables
+      4) State Transition Testing
+      5) Use-Case Testing
+      6) Other Black Box Testing
+         - Syntax Or Pattern Testing
+
+18) Mention what are the categories of defects?
+->  Security Defects: Application security defects generally involve improper handling of data sent from the user to the application. These defects are the most severe and given highest
+    priority for a fix.
+-> User Interface Defects: As the name suggests, the bugs deal with problems related to UI are usually considered less severe.
+
+19) Mention what bigbang testing is?
+-> Big Bang Testing is a software testing approach where all the components or modules of a system are tested together without following a predefined test plan. Testing is conducted in an
+   unplanned and ad hoc manner, often after the completion of development.
+
+20) What is the purpose of exit criteria?
+-> Exit criteria in software testing define the conditions that must be met for a testing phase to be considered complete and for the project to move to the next phase. It ensures that
+   the testing activities have achieved their goals and the software is ready for the next stage in the development lifecycle.
+
+21) When should "Regression Testing" be performed?
+-> Regression testing should be performed whenever there are changes or updates made to the software, such as bug fixes, new features, or modifications to existing functionalities. Its
+   purpose is to ensure that the recent changes have not adversely affected the existing features, and the software continues to function correctly after each modification.
+
+22) What is 7 key principles? Explain in detail?
+-> Testing Shows Presence of Defects:- Testing is aimed at finding defects and confirming that the software works as intended. The absence of detected defects does not guarantee the 					       absence of defects.
+-> Exhaustive Testing Is Impossible:- It is not possible to test all possible inputs and scenarios comprehensively. Testing efforts should be focused on high-risk areas and critical 					      functionalities.
+-> Early Testing:- Testing activities should start as early as possible in the software development life cycle to detect and address defects at an early stage, reducing the cost of fixing 		   issues later in the process.
+-> Defect Clustering:- A small number of modules or functionalities often contain the majority of defects. Focusing testing efforts on these areas can be more effective in defect 			      identification.
+-> Pesticide Paradox:- Repeating the same set of tests may not be sufficient to find new defects. Test cases need to be regularly reviewed and updated to uncover different types of 			       defects.
+-> Testing Is Context-Dependent:- The effectiveness of testing depends on the context of the project, including the software's purpose, requirements, and the development environment.
+-> Absence-of-Errors Fallacy:- Finding and fixing defects does not ensure the software's correctness. Testing helps in risk reduction, but it cannot guarantee a defect-free product.
+
+23) Difference between QA v/s QC v/s Tester
+->  QA - Quality Assurance focuses on processes and procedure rather than conducting actual testing
+     QC - Quality Control focuses on actual thing testing by executing software which intended to identify
+     bug/defect through implentation of procedure and process
+     Tester - Tester focuses on actual thing eg. finding bugd/error/defect in software
+
+24) Difference between Smoke and Sanity?
+->  Smoke Testing:
+	Purpose: To check if the software build is stable and suitable for more in-depth testing.
+	Scope: Broad, covering major functionalities of the application.
+	Execution: Conducted after each successful build or deployment.
+	Depth: Shallow testing to identify critical issues that may block further testing.
+	Outcome: Determines whether the application is ready for comprehensive testing.
+
+->  Sanity Testing:
+	Purpose: To verify specific functionalities or features after changes or bug fixes.
+	Scope: Narrow, focusing on the areas affected by recent changes.
+	Execution: Conducted when a specific set of features or changes are made.
+	Depth: More focused and specific than smoke testing, targeting recent modifications.
+	Outcome: Ensures that recent changes did not adversely impact related functionalities.
+
+25) Difference between verification and Validation
+-> Verification:
+	Focus: Process-oriented, ensuring that the software is developed in compliance with requirements and standards.
+	Timing: Conducted during the development phase.
+	Goal: To confirm that the work products (documents, code, etc.) meet specified requirements and standards.
+	Examples: Reviews, inspections, walkthroughs, and static analysis.
+
+-> Validation:
+	Focus: Product-oriented, ensuring that the end product meets user requirements and expectations.
+	Timing: Conducted during the testing phase.
+	Goal: To evaluate the actual behavior of the software against user expectations and needs.
+	Examples: Dynamic testing, functional testing, system testing, and acceptance testing.
+
+26) Explain types of Performance testing.
+-> Load Testing:- Evaluates the system's ability to handle expected load levels.
+	1)Volume Testing 2)Scalability Testing
+-> Stress Testing: Assesses the system's behavior under extreme conditions or beyond its designed capacity.
+	1)Endurance Testing 2)Spike Testing
+
+27) What is Error, Defect, Bug and failure?
+-> A mistake in coding is called 'Error', Error found by tester is called 'Defect',
+    Defect accepted by devlopment team then it is called 'Bug', and when build does 
+    not meet the requirement then it is called 'Failure'
+
+28) Difference between Priority and Severity
+-> Priority:
+	Definition: Priority represents the order in which defects or issues should be addressed based on business or project considerations.
+	Focus: Business impact and importance to stakeholders.
+	Determination: Set by the product owner, business analyst, or project manager.
+	Example: A high-priority issue may be a critical business function not working.
+-> Severity:
+	Definition: Severity indicates the degree of impact a defect has on the system's functionality.
+	Focus: Technical impact on the software's operation.
+	Determination: Often assessed by testers or technical teams.
+	Example: A high-severity issue may be a system crash or data corruption.
+
+29) What is Bug Life Cycle?
+->  The Bug Life Cycle, also known as the Defect Life Cycle, describes the stages a bug goes through from identification to resolution in the software development and testing process.
+
+30) Explain the difference between Functional testing and NonFunctional testing
+->  Functional Testing:
+	Focus: Validates that the software functions according to specified requirements and performs its intended operations.
+	Examples: Unit testing, integration testing, system testing, and acceptance testing.
+	Goals: Ensures that the software meets functional expectations and works as expected.
+	
+	Non-Functional Testing:
+	Focus: Evaluates aspects other than specific functionalities, including performance, usability, reliability, and security.
+	Examples: Performance testing, usability testing, reliability testing, and security testing.
+	Goals: Assesses characteristics such as speed, efficiency, user experience, and security compliance.
